@@ -1,0 +1,102 @@
+{
+  "nav": {
+    "postTruck": "Lägg upp lastbil",
+    "postShipment": "Skicka gods",
+    "availableTrucks": "Tillgängliga lastbilar",
+    "howItWorks": "Hur det fungerar",
+    "about": "Om oss",
+    "login": "Logga in",
+    "register": "Registrera dig",
+    "dashboard": "Min sida"
+  },
+  "hero": {
+    "badge": "Nordisk returfrakt-plattform",
+    "headline1": "Kör aldrig",
+    "headline2": "tom igen.",
+    "headline3": "Tjäna på hemresan.",
+    "subheadline": "Fyll tom lastbilskapacitet med smart transportmatchning. Åkerier tjänar extra — kunder betalar mindre.",
+    "cta_truck": "Registrera tom lastbil",
+    "cta_freight": "Jag behöver frakt",
+    "stat1_num": "30%",
+    "stat1_label": "av alla lastbilar kör tomma",
+    "stat2_num": "4 Mdr €",
+    "stat2_label": "bortkastade resurser/år i Europa",
+    "stat3_num": "−40%",
+    "stat3_label": "lägre frakt vs spotpris",
+    "stat4_num": "3 min",
+    "stat4_label": "att lägga upp en rutt"
+  },
+  "ticker": {
+    "label": "Live rutter just nu"
+  },
+  "how": {
+    "tag": "Hur det fungerar",
+    "headline": "Tre steg. Ingen mer tomkörning.",
+    "sub": "Enkelt som Uber — fast för 24-tons lastbilar med 50 pallars kapacitet.",
+    "step1_title": "Åkeri registrerar rutt",
+    "step1_desc": "Ange start, slut, mellanstopp, kapacitet och tidsfönster. Klart på 3 minuter.",
+    "step2_title": "Systemet matchar",
+    "step2_desc": "Vår motor jämför rutter, kapacitet och datum automatiskt. Du ser matchningar direkt.",
+    "step3_title": "Boka & tjäna",
+    "step3_desc": "Bekräfta uppdraget, hämta godset längs vägen. Extra intäkt utan extra mil."
+  },
+  "routes": {
+    "tag": "Live karta",
+    "headline": "Aktiva rutter just nu",
+    "sub": "Klicka på en lastbil för att se kapacitet, pris och kontaktuppgifter.",
+    "available_pallets": "lediga pallar",
+    "price_per_pallet": "kr/pall",
+    "book_now": "Boka transport",
+    "via": "Via"
+  },
+  "why": {
+    "tag": "Fördelar",
+    "headline": "Alla vinner. Ingen förlorar.",
+    "card1_title": "För åkerier",
+    "card1_desc": "Kör aldrig hem tom. Varje returtransport ger extra intäkt utan extra kostnad. Du väljer uppdragen — ingen är tvingad.",
+    "card2_title": "För avsändare",
+    "card2_desc": "Betala 30–50% mindre än ordinarie spotpris. Utnyttja kapacitet som ändå passerar din ort.",
+    "card3_title": "För klimatet",
+    "card3_desc": "Varje fylld lastbil är en lastbil som slipper rulla tom. Färre utsläpp, smartare logistik.",
+    "card4_title": "Snabbt & enkelt",
+    "card4_desc": "Ingen lång onboarding. Inga långa kontrakt. 10% provision — bara när det bokas."
+  },
+  "cta": {
+    "headline1": "Redo att sluta",
+    "headline2": "köra tomt?",
+    "sub": "Registrera din rutt idag — kostnadsfritt under lanseringsperioden.",
+    "button": "Registrera din lastbil nu"
+  },
+  "footer": {
+    "tagline": "Den nordiska marknadsplatsen för returfrakter.",
+    "nav_title": "Navigation",
+    "company_title": "Företag",
+    "contact_title": "Kontakt",
+    "about": "Om oss",
+    "faq": "Vanliga frågor",
+    "press": "Press",
+    "careers": "Karriär",
+    "rights": "Alla rättigheter förbehållna."
+  },
+  "form": {
+    "truck_tab": "Jag har en tom lastbil",
+    "freight_tab": "Jag behöver frakt",
+    "from_city": "Från stad",
+    "to_city": "Till stad",
+    "via": "Passerar (valfritt)",
+    "capacity": "Ledig kapacitet (pall)",
+    "date": "Datum",
+    "min_price": "Minimiersättning (kr)",
+    "find_matches": "Hitta matchningar",
+    "pickup_city": "Upphämtning",
+    "delivery_city": "Destination",
+    "pallets": "Antal pall",
+    "weight": "Vikt (kg)",
+    "pickup_time": "Senast hämtning",
+    "budget": "Budget (kr)",
+    "search_trucks": "Sök tillgängliga lastbilar",
+    "tag": "Prova nu",
+    "headline": "Hitta match — gratis",
+    "sub": "Lägg upp din rutt eller ditt transportbehov och se matchningar direkt."
+  }
+}

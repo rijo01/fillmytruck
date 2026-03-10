@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --rust: #C8451A;
+  --rust-light: #D94F22;
+  --amber: #E8890C;
+  --black: #0A0A0A;
+  --dark: #111214;
+  --steel-900: #1C1F24;
+  --steel-800: #252A30;
+  --steel-700: #374151;
+  --steel-500: #6B7280;
+  --steel-200: #E5E7EB;
+  --white-warm: #F0ECE4;
+
+  --font-barlow-condensed: 'Barlow Condensed', sans-serif;
+  --font-barlow: 'Barlow', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--black);
+  color: var(--white-warm);
+  font-family: var(--font-barlow);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* NOISE TEXTURE */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.35;
+}
+
+/* CLIP-PATH BUTTONS */
+.btn-clip {
+  clip-path: polygon(10px 0%, 100% 0%, calc(100% - 10px) 100%, 0% 100%);
+}
+
+.btn-clip-sm {
+  clip-path: polygon(6px 0%, 100% 0%, calc(100% - 6px) 100%, 0% 100%);
+}
+
+/* TRUCK TYPE BADGE */
+.truck-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border: 1px solid rgba(200, 69, 26, 0.4);
+  color: var(--rust);
+  background: rgba(200, 69, 26, 0.08);
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--dark);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--steel-700);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--steel-500);
+}
+
+/* MAPBOX OVERRIDES */
+.mapboxgl-ctrl-logo,
+.mapboxgl-ctrl-attrib {
+  opacity: 0.5;
+}
+
+/* SELECTION */
+::selection {
+  background: rgba(200, 69, 26, 0.3);
+  color: #fff;
+}
+
+/* FOCUS */
+:focus-visible {
+  outline: 2px solid var(--rust);
+  outline-offset: 2px;
+}
+
+/* FORM INPUTS */
+input, select, textarea {
+  background: #252A30;
+  border: 1px solid #2E3540;
+  color: #F0ECE4;
+  font-family: var(--font-barlow);
+  transition: border-color 0.2s ease;
+  clip-path: polygon(4px 0%, 100% 0%, calc(100% - 4px) 100%, 0% 100%);
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: var(--rust);
+}
+
+input::placeholder {
+  color: var(--steel-500);
+}
+
+select option {
+  background: #252A30;
+}

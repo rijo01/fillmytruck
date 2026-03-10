@@ -1,0 +1,102 @@
+{
+  "nav": {
+    "postTruck": "Post truck",
+    "postShipment": "Ship cargo",
+    "availableTrucks": "Available trucks",
+    "howItWorks": "How it works",
+    "about": "About",
+    "login": "Log in",
+    "register": "Sign up",
+    "dashboard": "Dashboard"
+  },
+  "hero": {
+    "badge": "Nordic return freight platform",
+    "headline1": "Never drive",
+    "headline2": "empty again.",
+    "headline3": "Earn on the way home.",
+    "subheadline": "Fill empty truck capacity with smart transport matching. Carriers earn extra — customers pay less.",
+    "cta_truck": "Register empty truck",
+    "cta_freight": "I need freight",
+    "stat1_num": "30%",
+    "stat1_label": "of all trucks drive empty",
+    "stat2_num": "€4 Bn",
+    "stat2_label": "wasted resources/year in Europe",
+    "stat3_num": "−40%",
+    "stat3_label": "lower freight vs spot price",
+    "stat4_num": "3 min",
+    "stat4_label": "to post a route"
+  },
+  "ticker": {
+    "label": "Live routes right now"
+  },
+  "how": {
+    "tag": "How it works",
+    "headline": "Three steps. No more empty miles.",
+    "sub": "As simple as Uber — but for 24-ton trucks with 50-pallet capacity.",
+    "step1_title": "Carrier registers route",
+    "step1_desc": "Enter start, end, stops, capacity and time window. Done in 3 minutes.",
+    "step2_title": "System matches automatically",
+    "step2_desc": "Our engine compares routes, capacity and dates. You see matches instantly.",
+    "step3_title": "Book & earn",
+    "step3_desc": "Confirm the job, pick up cargo along the way. Extra revenue without extra miles."
+  },
+  "routes": {
+    "tag": "Live map",
+    "headline": "Active routes right now",
+    "sub": "Click a truck to see capacity, price and contact details.",
+    "available_pallets": "pallets available",
+    "price_per_pallet": "SEK/pallet",
+    "book_now": "Book transport",
+    "via": "Via"
+  },
+  "why": {
+    "tag": "Benefits",
+    "headline": "Everyone wins. Nobody loses.",
+    "card1_title": "For carriers",
+    "card1_desc": "Never drive home empty. Every return transport generates extra revenue at zero extra cost.",
+    "card2_title": "For shippers",
+    "card2_desc": "Pay 30–50% less than standard spot price. Use capacity that already passes your city.",
+    "card3_title": "For the climate",
+    "card3_desc": "Every filled truck is one less empty truck on the road. Fewer emissions, smarter logistics.",
+    "card4_title": "Fast & simple",
+    "card4_desc": "No long onboarding. No long contracts. 10% commission — only when booked."
+  },
+  "cta": {
+    "headline1": "Ready to stop",
+    "headline2": "driving empty?",
+    "sub": "Register your route today — free during the launch period.",
+    "button": "Register your truck now"
+  },
+  "footer": {
+    "tagline": "The Nordic marketplace for return freight.",
+    "nav_title": "Navigation",
+    "company_title": "Company",
+    "contact_title": "Contact",
+    "about": "About us",
+    "faq": "FAQ",
+    "press": "Press",
+    "careers": "Careers",
+    "rights": "All rights reserved."
+  },
+  "form": {
+    "truck_tab": "I have an empty truck",
+    "freight_tab": "I need freight",
+    "from_city": "From city",
+    "to_city": "To city",
+    "via": "Stops (optional)",
+    "capacity": "Available capacity (pallets)",
+    "date": "Date",
+    "min_price": "Minimum price (SEK)",
+    "find_matches": "Find matches",
+    "pickup_city": "Pickup city",
+    "delivery_city": "Delivery city",
+    "pallets": "Number of pallets",
+    "weight": "Weight (kg)",
+    "pickup_time": "Pickup deadline",
+    "budget": "Budget (SEK)",
+    "search_trucks": "Search available trucks",
+    "tag": "Try now",
+    "headline": "Find a match — free",
+    "sub": "Post your route or shipment and see matches instantly."
+  }
+}
