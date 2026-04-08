@@ -67,6 +67,11 @@ export function Footer() {
                   </a>
                 </li>
               ))}
+              <li>
+                <a href="https://www.infofinder.se/sok?q=transport" target="_blank" rel="noopener noreferrer" className="text-[#6B7280] hover:text-[#F0ECE4] text-sm transition-colors" style={{ fontFamily: 'Barlow, sans-serif' }}>
+                  Hitta transportföretag på InfoFinder
+                </a>
+              </li>
             </ul>
           </div>
 
